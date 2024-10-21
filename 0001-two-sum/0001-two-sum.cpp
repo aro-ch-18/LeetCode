@@ -11,7 +11,7 @@ public:
                 ans.push_back(i);
                 break;
             }
-            mpp[nums[i]]=i;
+            mpp[curr]=i;
         }
         return ans;
     }
